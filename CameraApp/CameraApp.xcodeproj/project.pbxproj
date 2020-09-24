@@ -13,6 +13,9 @@
 		19788B1E24FF459C00CBC047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19788B1D24FF459C00CBC047 /* Assets.xcassets */; };
 		19788B2124FF459C00CBC047 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19788B2024FF459C00CBC047 /* Preview Assets.xcassets */; };
 		19788B2424FF459C00CBC047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19788B2224FF459C00CBC047 /* LaunchScreen.storyboard */; };
+		19FBB430250A05750054D190 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FBB42F250A05750054D190 /* ImagePicker.swift */; };
+		19FBB432250A09B30054D190 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FBB431250A09B30054D190 /* Coordinator.swift */; };
+		19FBB434251C304A0054D190 /* UIImageExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FBB433251C304A0054D190 /* UIImageExtentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		19788B2024FF459C00CBC047 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		19788B2324FF459C00CBC047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19788B2524FF459C00CBC047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FBB42F250A05750054D190 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		19FBB431250A09B30054D190 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		19FBB433251C304A0054D190 /* UIImageExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				19788B1724FF459800CBC047 /* AppDelegate.swift */,
 				19788B1924FF459800CBC047 /* SceneDelegate.swift */,
 				19788B1B24FF459800CBC047 /* ContentView.swift */,
+				19FBB42F250A05750054D190 /* ImagePicker.swift */,
+				19FBB431250A09B30054D190 /* Coordinator.swift */,
+				19FBB433251C304A0054D190 /* UIImageExtentions.swift */,
 				19788B1D24FF459C00CBC047 /* Assets.xcassets */,
 				19788B2224FF459C00CBC047 /* LaunchScreen.storyboard */,
 				19788B2524FF459C00CBC047 /* Info.plist */,
@@ -146,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19FBB434251C304A0054D190 /* UIImageExtentions.swift in Sources */,
 				19788B1824FF459800CBC047 /* AppDelegate.swift in Sources */,
+				19FBB430250A05750054D190 /* ImagePicker.swift in Sources */,
+				19FBB432250A09B30054D190 /* Coordinator.swift in Sources */,
 				19788B1A24FF459800CBC047 /* SceneDelegate.swift in Sources */,
 				19788B1C24FF459800CBC047 /* ContentView.swift in Sources */,
 			);
@@ -289,6 +301,7 @@
 				DEVELOPMENT_TEAM = G5TL2DRH35;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CameraApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +322,7 @@
 				DEVELOPMENT_TEAM = G5TL2DRH35;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CameraApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

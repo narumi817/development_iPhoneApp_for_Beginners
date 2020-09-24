@@ -32,7 +32,7 @@ struct ContentView: View {
                 }
             }
             if isPicking {
-                Rectangle()
+                ImagePicker(image: $image, isPicking: $isPicking)
                     .edgesIgnoringSafeArea(.all)
                     .transition(.move(edge: .bottom))
                     .animation(.easeInOut)
